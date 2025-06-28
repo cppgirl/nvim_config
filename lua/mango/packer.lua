@@ -13,7 +13,6 @@ return require('packer').startup(function(use)
     requires = { {'nvim-lua/plenary.nvim'} }
   }
 
-  use 'trapd00r/vidir'
   use({
     'projekt0n/github-nvim-theme',
     config = function()
@@ -59,5 +58,4 @@ return require('packer').startup(function(use)
   }
 
   use('cdelledonne/vim-cmake')
-
 end)
