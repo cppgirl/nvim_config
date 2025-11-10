@@ -1,5 +1,4 @@
 require("mango.remap")
 print("hello from Mango!")
 
-require('mango.vimpack')
-
+reset.require('mango.vimpack')
