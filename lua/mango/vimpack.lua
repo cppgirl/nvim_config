@@ -1,27 +1,19 @@
 
 vim.pack.add({
-  -- Install "plugin1" and use default branch (usually `main` or `master`)
---  'https://github.com/user/plugin1',
-  -- Same as above, but using a table (allows setting other options)
-  --{ src = 'https://github.com/user/plugin1' },
-  -- Specify plugin's name (here the plugin will be called "plugin2"
-  -- instead of "generic-name")
-  --{ src = 'https://github.com/user/generic-name', name = 'plugin2' },
-  -- Specify version to follow during install and update
-  --{
-    --src = 'https://github.com/user/plugin3',
-    -- Version constraint, see |vim.version.range()|
-    --version = vim.version.range('1.0'),
-  --},
-  --{
-    --src = 'https://github.com/user/plugin4',
-    -- Git branch, tag, or commit hash
-    --version = 'main',
-  --},
-
   { src = 'https://github.com/nvim-lua/plenary.nvim' },
   { src = 'https://github.com/nvim-telescope/telescope.nvim' },
+  { src = 'https://github.com/nvim-telescope/telescope-file-browser.nvim' },
 
+  { src = 'https://github.com/nvim-treesitter/nvim-treesitter' },
+  { src = 'https://github.com/nvim-treesitter/playground' },
+
+  { src = 'https://github.com/ThePrimeagen/harpoon' },
+  { src = 'https://github.com/mbbill/undotree' },
+  { src = 'https://github.com/tpope/vim-fugitive' },
+
+  { src = 'https://github.com/williamboman/mason.nvim' },
+  { src = 'https://github.com/neovim/nvim-lspconfig' },
+  { src = 'https://github.com/williamboman/mason-lspconfig.nvim' },
+
+  { src = 'https://github.com/cdelledonne/vim-cmake' }
 })
--- Plugin's code can be used directly after `add()`
---plugin1 = require('plugin1')
