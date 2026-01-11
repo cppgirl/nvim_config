@@ -7,10 +7,7 @@ vim.pack.add({
     { src = 'https://github.com/nvim-telescope/telescope-file-browser.nvim' },
 
     -- kolorki
-    { src = 'https://github.com/rose-pine/neovim', name = 'rose-pine-moon' },
-    { src = 'https://github.com/morhetz/gruvbox' },
     { src = 'https://github.com/folke/tokyonight.nvim' },
-    { src = 'https://github.com/Rigellute/shades-of-purple.vim' },
 
     -- pobieracze
     { src = 'https://github.com/nvim-treesitter/nvim-treesitter' }, -- treesitter parsers
@@ -22,9 +19,6 @@ vim.pack.add({
     { src = 'https://github.com/theprimeagen/harpoon' },
     { src = 'https://github.com/tpope/vim-fugitive' }, -- Git integration
     { src = 'https://github.com/Shatur/neovim-tasks' }, -- Building Tool
-
-    -- latex
-    { src = 'https://github.com/lervag/vimtex' },
 
     -- ikonki
     { src = 'https://github.com/nvim-tree/nvim-web-devicons' },

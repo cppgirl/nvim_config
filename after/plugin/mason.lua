@@ -4,6 +4,5 @@ require('mason-lspconfig').setup({
         'clangd',
         'lua_ls',
         'neocmake',
-        'glsl_analyzer',
     },
 })

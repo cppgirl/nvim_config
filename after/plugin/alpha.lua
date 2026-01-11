@@ -1,5 +1,5 @@
-local getBanner = require('trenek.startup.banners')
-local getQuote = require('trenek.startup.quotes')
+local getBanner = require('mango.startup.banners')
+local getQuote = require('mango.startup.quotes')
 
 local header = {
     type = "text",

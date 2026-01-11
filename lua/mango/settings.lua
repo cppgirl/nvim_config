@@ -1,6 +1,6 @@
 -- line numbers
 vim.o.number = true
-vim.o.relativenumber = false
+vim.o.relativenumber = true
 
 -- tabs
 vim.o.tabstop = 4
