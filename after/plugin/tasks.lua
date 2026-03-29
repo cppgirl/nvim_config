@@ -75,7 +75,7 @@ local function setup(x)
     vim.keymap.set('n', '<leader>tkr', ':Task start '..x..' run<cr>', opts)
     vim.keymap.set('n', '<leader>tkR', ':Task start '..x..' run ', opts)
     vim.keymap.set('n', '<leader>tkK', ':Task start '..x..' clean<cr>', opts)
-    vim.keymap.set('n', '<leader>tkT', ':Task start '..x..' ctest<cr>', opts)
+    vim.keymap.set('n', '<leader>tkT', ':Task start '..x..' ctest --test-dir test --output-on-failure<cr>', opts)
     vim.keymap.set('n', '<leader>tkp', ':Task start '..x..' purge<cr>', opts)
     vim.keymap.set('n', '<leader>tkP', ':Task start '..x..' reconfigure<cr>', opts)
 
